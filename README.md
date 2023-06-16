@@ -86,13 +86,13 @@
         * If you have not done so already, follow [this guide](/Authenticate/README.md)
     3. Setup/create the remote   
        **Create the remote repo via the website [detailed instructions](https://docs.github.com/en/github-ae@latest/get-started/quickstart/create-a-repo)** (preferred)   
-        ![Create Repo](resources\images\create_repo.png)  
+        ![Create Repo](resources/images/create_repo.png)  
         -- **OR**   --  
 
         *Generate a new remote via terminal*  
          `curl -u 'yourusername' https://api.github.com/user/repos -d '{"name":"projectname","description":"This project is a test"}'` (requires password via GH API)
     4. Copy the git URL to your project  
-    ![git_url](resources\images\git_url.png)  
+    ![git_url](resources/images/git_url.png)  
     4. Push our main branch to remote
        1. Set the origin with `git remote add origin https://github.com/krowvin/git-live-demo.git` ◀ copied git url
     5. Switch to the branch we want to push,   
@@ -104,10 +104,10 @@
     7. Reload your remote repository on github to see your changes!
 ## Part 2 - Using Git with the VSCode GUI
 *A complete walk through on using git in the VSCode GUI for this project (and others)*
-1. Initialize your Local Repository
-   1. Click the "Source Control" button:
-   ![Source Control](resources/images/source_control.png)
-   2. Click **"Initialize Repository"**
+1. Initialize your Local Repository  
+   1. Click the "Source Control" button:  
+   ![Source Control](resources/images/source_control.png)  
+   2. Click **"Initialize Repository"**  
     ![Initialize or Publish](resources/images/init_repo.png)
 2. If you have any changes you will see them now with a blue "commit" button, otherwise you will see a "publish" button
 
