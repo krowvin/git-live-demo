@@ -116,7 +116,7 @@
 2. If you have any changes you will see them now with a blue "commit" button, otherwise you will see a "publish" button
 
 # Part 3 - Collaborating with Others
-
+*See Video*
 ## Problems
 1. ### Where is my menu bar?  
    *There are a few different styles for the menu bar in VSCode.*
