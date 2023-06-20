@@ -25,7 +25,7 @@
    1. Create your `.gitignore`
       1. For Python, Navigate [here](https://github.com/github/gitignore/blob/main/Python.gitignore) and click the 
         Copy Raw File button at the top right of the page.   
-    ![Copy Raw File](resources\images\copy_raw_content.png)   
+    ![Copy Raw File](resources/images/copy_raw_content.png)   
       2. Paste the contents into your `.gitignore`
    2. Create your `README.md`  
       *In the file you can use [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to write documentation about whatever directory the `.md` (markdown) file is in.*
