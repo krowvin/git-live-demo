@@ -1,5 +1,7 @@
 # GitHub Live Demo Workshop
-*Setup a Python script to fetch levels from CDA with **emphasis** on using git/github*
+*Setup a Python script to fetch specified location levels from CDA with **emphasis** on using git/github*
+
+![No Powerpoint Today!](resources/images/no_pwrpt.png)
 
 **Demo Notes**: ⚠ Disable camera 📷, it will cover the code
 
@@ -121,7 +123,8 @@
    * Sometimes it is the burger menu (3 horizontal lines)
    * In others it is horizontal text across the top of your VSCode window  
 **To Change it:**
-     1. Click the ⚙ Gear icon at the bottom left 2. Select "Settings"
+     1. Click the ⚙ Gear icon at the bottom left  
+     2. Select "Settings"
      3. Type "menu" in the search
      4. Scroll down until you see "Menu Bar Visibility" 
      5. Select whichever option suits you (i.e. `classic`) 
