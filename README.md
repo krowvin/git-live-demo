@@ -36,7 +36,7 @@
         When you save the file, it will render on github. 
 
 
-## Part 1 - Using Git with Terminal
+# Part 1 - Using Git with Terminal
 *A complete walk through on using git in the terminal for this project (and others)*
 1. Open command prompt/terminal
 2. Navigate to your project directory
@@ -90,19 +90,21 @@
         -- **OR**   --  
 
         *Generate a new remote via terminal*  
-         `curl -u 'yourusername' https://api.github.com/user/repos -d '{"name":"projectname","description":"This project is a test"}'` (requires password via GH API)
+         `curl -u 'yourusername' https://api.github.com/user/repos -d '{"name":"my-project-name","description":"This project is a test"}'` (requires password via GH API)
     4. Copy the git URL to your project  
     ![git_url](resources/images/git_url.png)  
-    4. Push our main branch to remote
-       1. Set the origin with `git remote add origin https://github.com/krowvin/git-live-demo.git` ◀ copied git url
-    5. Switch to the branch we want to push,   
+    5. Push our main branch to remote
+       1. Set the origin with `git remote add origin https://github.com/krowvin/my-project-name.git` ◀ copied git url
+    6. Switch to the branch we want to push,   
         i.e. main `git checkout main`  
           you will see "Already on 'main'" if you are good to go!
-    6. Push our changes with  
+    7. Push our changes with  
        `git push -u origin main`  
         *This sets the upstream branch to main*
-    7. Reload your remote repository on github to see your changes!
-## Part 2 - Using Git with the VSCode GUI
+    8. Reload your remote repository on github to see your changes!
+    9. Pull changes from remote if working on multiple systems with others with
+        `git pull` *(This assumes your remote origin is set)*
+# Part 2 - Using Git with the VSCode GUI
 *A complete walk through on using git in the VSCode GUI for this project (and others)*
 1. Initialize your Local Repository  
    1. Click the "Source Control" button:  
@@ -111,7 +113,7 @@
     ![Initialize or Publish](resources/images/init_repo.png)
 2. If you have any changes you will see them now with a blue "commit" button, otherwise you will see a "publish" button
 
-## Part 3 - Collaborating with Others
+# Part 3 - Collaborating with Others
 
 ## Problems
 1. ### Where is my menu bar?  
